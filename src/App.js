@@ -13,8 +13,6 @@ import './App.css';
 import Projects from './components/Projects';
 import ContactForm from './components/ContactForm';
 import FooterPanel from './components/FooterPanel';
-import Particles from "react-particles-js";
-import { particlesOptions } from "./particlesOptions";
 
 function App() {
   return (
@@ -22,11 +20,6 @@ function App() {
       <NavBar />
       <Slides />
       <TitleMessage />
-
-      <Particles
-        className="particles particles-box"
-        params={particlesOptions}
-      />
       
       <div>
         <Parallax
